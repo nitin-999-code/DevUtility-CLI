@@ -69,6 +69,11 @@ A production-ready CLI tool built using Node.js and TypeScript.
   devutility joke
   ```
 
+- **Currency Conversion**
+  ```bash
+  devutility convert 100 USD INR
+  ```
+
 - **Version & Help**
   ```bash
   devutility -v

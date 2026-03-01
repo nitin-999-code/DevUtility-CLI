@@ -11,6 +11,7 @@ import { SysInfoCommand } from './commands/SysInfoCommand';
 import { JokeCommand } from './commands/JokeCommand';
 import { VersionCommand } from './commands/VersionCommand';
 import { TimeCommand } from './commands/TimeCommand';
+import { ConvertCommand } from './commands/ConvertCommand';
 
 const program = new Command();
 
@@ -30,7 +31,8 @@ const commands = [
     new SysInfoCommand(),
     new JokeCommand(),
     new VersionCommand(),
-    new TimeCommand()
+    new TimeCommand(),
+    new ConvertCommand()
 ];
 
 commands.forEach(cmd => cmd.register(program));
